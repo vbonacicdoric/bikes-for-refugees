@@ -177,6 +177,14 @@ rem;
 
 .article {
   margin-bottom: 1rem;
+  padding: 0.7rem;
+  border: 2px solid grey;
+  margin: 1rem;
+  width: 200px;
+}
+
+.article:first-child{
+  background-color: rgb(163, 163, 163);
 }
 
 .article__title {
@@ -263,3 +271,9 @@ rem;
   }
 }
 
+.articles {
+  display: flex;
+  justify-content: center;
+  
+
+}
