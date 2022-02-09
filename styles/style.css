@@ -132,8 +132,16 @@ p {
 
 .hero h1 {
   margin-bottom: 1rem;
-  font-size: 2.5rem;
+font-size: 1.875
+rem;
 }
+
+@media (max-width:380px){
+  .hero .bikeTitle {
+    color: red;
+    font-size 1.875rem;
+  }
+  }
 
 .hero p {
   font-size: 1.2rem;
@@ -254,3 +262,4 @@ p {
     padding-right: 2rem;
   }
 }
+
